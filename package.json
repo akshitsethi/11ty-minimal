@@ -1,0 +1,32 @@
+{
+  "name": "11ty-minimal",
+  "version": "1.0.0",
+  "description": "Minimalist theme for 11ty static site generator.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshitsethi/11ty-minimal.git",
+    "editUrl": "https://github.com/akshitsethi/11ty-minimal/edit/main"
+  },
+  "keywords": [
+    "11ty",
+    "minimal",
+    "theme",
+    "ssg"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshitsethi/11ty-minimal/issues"
+  },
+  "homepage": "https://github.com/akshitsethi/11ty-minimal#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "clean-css": "^5.3.1",
+    "html-minifier": "^4.0.0",
+    "terser": "^5.16.1"
+  }
+}
