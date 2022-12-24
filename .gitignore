@@ -1,0 +1,5 @@
+# MacOS attributes file
+.DS_Store
+
+# Node modules
+/node_modules/

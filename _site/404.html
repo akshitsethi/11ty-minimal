@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <title>
+            🍦.11ty.js 🍦 🎉 Congratulations! You found the sample 404 page!
+        </title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author"
+            content="Akshit Sethi">
+            <meta name="description"
+            content="https://onedollarcode.com/">
+            <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍦</text></svg>">
+            <meta property="og:title" content="🎉 Congratulations! You found the sample 404 page!">
+            <meta name="twitter:title" content="🎉 Congratulations! You found the sample 404 page!"><meta property="og:description" content="https://onedollarcode.com/">
+            <meta property="twitter:description" content="https://onedollarcode.com/"><meta property="og:image" content="https://example.com/img/headshot.jpg">
+            <meta name="twitter:image" content="https://example.com/img/headshot.jpg">
+            <meta name="twitter:card" content="summary_large_image"><meta property="og:url" content="/404.html">
+            <style>
+                :root {
+            /* Color Codes */
+            --black: #1a1a1a;
+            --grayscale-100: #e6e6e6;
+            --grayscale-400: #999;
+            --grayscale-600: #666;
+            --white: #fff;
+            /* Named Properties */
+            --background-color: var(--white);
+            --gray: var(--grayscale-600);
+            --border: 1px solid var(--grayscale-600);
+            --text-color: var(--black);
+            --base-unit: 1em;
+        }
+/**
+ * @file Defines styles common to all pages
+ * Custom properties are set in `_includes/shortcodes/css-root.js`
+ * @author Akshit Sethi <hi@akshitsethi.com>
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/CSS/--*CSS Custom Properties on MDN}
+ */
+
+/* Set box-sizing for all elements */
+*:
+*:before
+*:after {
+  box-sizing: border-box;
+}
+
+/* Visually hide an element, but leave it available for screen readers */
+.screen-reader-text {
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+}
+
+/* Layout */
+.grid {
+  display: grid;
+}
+  
+.gap {
+  gap: var(--base-unit);
+}
+
+body {
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: 1fr minmax(calc(100vw - 80ch), 80ch) 1fr; 
+  min-height: 100vh;
+}
+
+#site_header,
+#site_header + nav,
+main,
+#site_footer {
+  grid-column: 2;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1em;
+}
+
+/* Margin */
+.no-margin {
+  margin: 0;
+}
+
+/* Colors */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+time,
+footer {
+  color: var(--gray);
+}
+
+code {
+  background-color: var(--grayscale-100);
+  border-radius: 3px;
+  color: var(--black);
+  hyphens: manual;
+  padding: 1px 3px;
+}
+
+/* Typography */
+body {
+  font-family: system-ui, serif;
+  font-size: 1.25em;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+}
+
+nav a,
+time {
+  font-weight: 700;
+}
+
+article p {
+  text-indent: var(--base-unit);
+  text-align: justify;
+  hyphens: auto;
+}
+
+time,
+#site_footer {
+  font-size: small;
+}
+
+ul {
+  list-style: square;
+}
+
+/* Links */
+a {
+  color: inherit;
+}
+
+a:focus,
+a:hover,
+a:visited {
+  opacity: 0.8;
+}
+
+nav a {
+  padding: 0.5em;
+}
+
+/* Border */
+#site_header + nav {
+  border-top: var(--border);
+  border-bottom: var(--border);
+}
+
+#site_footer {
+  border-top: var(--border);
+}
+
+            </style>
+            
+        </head>
+        <body class="grid gap no-margin">
+            <header id="site_header">
+                <a href="#main" class="screen-reader-text">Skip to main content</a>
+                <h1 class="no-margin"
+                style="--font-size:4vw;">
+                <a href="/" 
+                    >🍦.11ty.js</a>
+                </h1>
+                <p class="no-margin">The vanilla JavaScript 🕚 Eleventy starter project of your dreams 💭</p>
+            </header>
+            <nav 
+            
+            aria-label="primary navigation">
+            <a href="/" 
+                >🏡 Home</a>
+            </nav>
+            <main id="main" class="grid gap">
+            <article>
+        <header class="article-header">
+            <h2>🎉 Congratulations! You found the sample 404 page!</h2>
+        </header>
+        <p>Unless you were looking for this page on purpose, well … the other resource you were actually looking for probably can’t be found at the address you requested.</p>
+<p>📝 Edit this template to help your visitors find their way back to more meaningful content.</p>
+<h3>Other options</h3>
+<ul>
+<li><a href="https://twitter.com/akshitsethi/">😇 Complain to Akshit on Twitter</a></li>
+</ul>
+
+    </article>
+            </main>
+            <footer id="site_footer">
+                <p><a href="https://github.com/akshitsethi/onedollarcode.com/edit/main/./404.11ty.js">📝 Edit this page</a></p>
+                <p><span id="copyright_year">&copy; 2022</span>
+            <span id="copyright_holder"><a href="https://twitter.com/akshitsethi">Akshit Sethi</a>.</span>
+            <span id="copyright_license">
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/"><abbr title="CC BY-SA: Creative Commons Attribution-ShareAlike 4.0 International license">CC BY-SA</abbr></a>.
+            </span></p>
+                <p><a href="https://github.com/akshitsethi/onedollarcode.com#readme">onedollarcode.com 1.0.0</a><br>
+            🏗️ Created by <a href="https://twitter.com/akshitsethi">@akshitsethi</a> with the static site generator <a href="https://11ty.dev/">🕚  Eleventy</a>. 🚀 Hosted on <a href="https://netlify.com/">Netlify</a>.<br>
+            Source code written in 🍦 JavaScript, 🕸️ semantic HTML, 🎨 progressively enhanced CSS, and a 🧂 dash of Markdown.<br>
+            💝 Contribute on <a href="http://github.com/akshitsethi/11ty-blog/">GitLab</a>.</p>
+            </footer>
+        </body>
+        </html>
