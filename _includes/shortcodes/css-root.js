@@ -22,17 +22,34 @@ module.exports = eleventyConfig => {
     eleventyConfig.addShortcode('cssRoot', data =>
         `:root {
             /* Color Codes */
-            --black: ${data.colors.grayscale[900].hex};
-            --grayscale-100: ${data.colors.grayscale[100].hex};
-            --grayscale-400: ${data.colors.grayscale[400].hex};
-            --grayscale-600: ${data.colors.grayscale[600].hex};
-            --white: ${data.colors.grayscale.white.hex};
-            /* Named Properties */
+            --black: ${data.colors.black.hex};
+            --white: ${data.colors.white};
+            --silver: ${data.colors.silver};
+            --gray-100: ${data.colors.gray[100]};
+            --gray-200: ${data.colors.gray[200]};
+            --gray-300: ${data.colors.gray[300]};
+            --gray-400: ${data.colors.gray[400]};
+            --gray-500: ${data.colors.gray[500]};
+            --gray-600: ${data.colors.gray[600]};
+            --gray-700: ${data.colors.gray[700]};
+            --gray-800: ${data.colors.gray[800]};
+            --gray-900: ${data.colors.gray[900]};
+            --gray-darker: ${data.colors.gray['darker']};
+            --gray-dark: ${data.colors.gray['dark']};
+            --gray-light: ${data.colors.gray['light']};
+            --gray-lighter: ${data.colors.gray['lighter']};
+
+            /* Essentials */
             --background-color: var(--white);
-            --gray: var(--grayscale-600);
-            --border: 1px solid var(--grayscale-600);
-            --text-color: var(--black);
-            --base-unit: 1em;
+            --border-color: var(--gray-lighter);
+            --text-color: var(--gray-200);
+            --base-unit: 1rem;
+
+            /* Font sizes */
+            --heading-font-size-lg: 4.25rem;
+            --heading-font-size-sm: 2.75rem;
+            --body-font-size-lg: 1.75rem;
+            --body-font-size-sm: 1.4rem;
         }`
     );
 };
