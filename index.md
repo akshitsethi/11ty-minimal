@@ -1,9 +1,9 @@
 ---
 title: 🏡 Home
 layout: home
-tags: ['home', 'nav']
 weight: 1
 permalink: '/'
+eleventyExcludeFromCollections: true
 ---
 
 🏡 This is the home page.
